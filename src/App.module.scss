@@ -1,0 +1,24 @@
+.App {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c5deee;
+
+    header > img {
+      margin-top: 10px;
+    }
+
+  .Input {
+    width: 66%;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    .Input {
+      width: 80%;
+    }
+  }
+}

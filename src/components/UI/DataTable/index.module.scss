@@ -1,0 +1,26 @@
+.DataTableContainer {
+  max-width: 1000px;
+  width: 80%;
+  margin: 10px auto;
+    :global {
+      .rdt_TableHeadRow {
+        background-color: #f2f4f7;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+        border: 1px solid darkgrey;
+      }
+      .rdt_TableBody {
+        border: 1px solid darkgrey;
+      }
+      .rdt_TableCol {
+        text-align: center;
+      }
+
+      .rdt_TableCell {
+        border-right: 1px solid darkgrey;
+      }
+    }
+}

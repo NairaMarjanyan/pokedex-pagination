@@ -1,0 +1,46 @@
+.InputSearch {
+  :global {
+   .MuiInputBase-root {
+     background-color: white;
+     border-radius: 16px;
+   }
+
+    .MuiTextField-root {
+      width: 100% !important;
+      margin: 0 !important;
+    }
+
+    .MuiFormControl-root {
+      background-color:  #fff;
+      border-radius: 16px;
+    }
+
+    .MuiInputBase-input.MuiOutlinedInput-input {
+      border-radius: 16px;
+    }
+
+    .MuiOutlinedInput-root {
+      .MuiOutlinedInput-notchedOutline {
+        border-color: #3270d5;
+        border-radius: 16px;
+        color: #1d2939;
+      }
+      &:hover {
+        .MuiOutlinedInput-notchedOutline {
+          border-color: #3270d5;
+        }
+      }
+    }
+
+    .MuiOutlinedInput-root.Mui-focused {
+      .MuiOutlinedInput-notchedOutline {
+        border-color: #3270d5;
+      }
+    }
+
+
+    .MuiOutlinedInput-root.Mui-focusVisible {
+      border-radius: 16px;
+    }
+  }
+}
